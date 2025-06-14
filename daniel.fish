@@ -14,7 +14,7 @@ for i in *Written*.m4a
     mv -i "$i" "$new.m4b"
 end
 
-mkdir complete
+mkdir -p complete
 mv *m4b complete/
 cd complete/
 
